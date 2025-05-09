@@ -5,10 +5,12 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import 'devicon/devicon.min.css';
 
 function App() {
   const portfolioData = {
     name: "clayde.dev",
+    
     fullName: "Clayde Arnaiz",
     tagline: "Aspiring Computer Engineer",
     education: {
